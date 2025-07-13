@@ -7,8 +7,16 @@
     "start": "parcel",
     "build": "parcel build"
   },
-  "dependencies": {},
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  },
   "devDependencies": {
-    "parcel": "^2.14.0"
+    "@babel/core": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "parcel": "^2.14.0",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
