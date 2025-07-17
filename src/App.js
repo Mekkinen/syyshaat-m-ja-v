@@ -4,23 +4,28 @@ export function App() {
   const appContents = (
     <>
       <Header />
-      <div>
-        <h2 style={{ margin: '0', textAlign: 'center', flexGrow: 1 }}>
-          <i>11.10.2025</i>
-        </h2>
-        <h2 style={{ margin: '0', textAlign: 'center', flexGrow: 1 }}>
-          <i>hääjuhla</i>
-        </h2>
-        <div style={{ fontWeight: 'bolder', textAlign: 'center', paddingTop: '4em', flexGrow: 1 }}>
+      <div className="surroundBox">
+        <div className="infobox boldCenter">
           <p>RSVP</p>
+          <p><i>Vastaathan 1.8.2025 mennessä yllä olevan RSVP-linkin kautta</i></p>
         </div>
-        <div style={{ textAlign: 'center', paddingTop: '4em', flexGrow: 1 }}>
-          <p>Aikataulu</p>
+        <div className="infobox centerPadding">
+          <div className="inlineLeft">
+            <p>Aikataulu</p>
+            <ul>
+              <li>14:45 - Paikalle voi saapua, alkumaljat</li>
+              <li>15:30 - Vihkiminen</li>
+              <li>16:15 - Päivällinen</li>
+              <li>18:00 - Jotain</li>
+              <li>19:00 - Kakun leikkaus</li>
+              <li>20:00 - DJ soittelee, vapaata hengailua</li>
+            </ul>
+          </div>
         </div>
-        <div style={{ textAlign: 'center', paddingTop: '4em', flexGrow: 1 }}>
+        <div className="infobox centerPadding">
           <p>Pukukoodi</p>
         </div>
-        <div style={{ textAlign: 'center', paddingTop: '4em', flexGrow: 1 }}>
+        <div className="infobox centerPadding">
           <p>Häälahjat</p>
         </div>
       </div>

@@ -1,10 +1,38 @@
 html {
   color-scheme: light dark;
-  font-family: system-ui;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  background-color: #CCA1A6;
+  background-color: #c49399;
   font-size: larger;
+}
+
+.infobox {
+  background-color: #CCA1A6;
+  padding: 10 10;
+  margin: 10 10;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.surroundBox {
+  margin: 0em 0em 6em 0em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boldCenter {
+  font-weight: bolder;
+  margin-top: 2em;
+}
+
+.centerPadding {
+  padding-top: 4em;
+}
+
+.inlineLeft {
+  display: inline-block;
+  text-align: left;
 }
