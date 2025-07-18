@@ -7,14 +7,16 @@ export function Header() {
   return (
     <>
       <header className="header">
-        <img src={leftImage} alt="Left" className="header-image left-image" />
-        <div className="header-center">
+        <div className="header-images-row">
+          <img src={leftImage} alt="Left" className="header-image left-image" />
           <img src={nimetImage} alt="Nimet" className="header-nimet" />
-          <h2 className="header-date">11.10.2025</h2>
-          <h2 className="header-event"><i>hääjuhla</i></h2>
+          <img src={rightImage} alt="Right" className="header-image right-image" />
         </div>
-        <img src={rightImage} alt="Right" className="header-image right-image" />
       </header>
+      <div className="header-center">
+        <h2 className="header-date">11.10.2025</h2>
+        <h2 className="header-event"><i>hääjuhla</i></h2>
+      </div>
     </>
   );
 }
