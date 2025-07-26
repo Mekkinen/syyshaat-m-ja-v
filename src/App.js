@@ -5,7 +5,7 @@ export function App() {
     <>
       <Header />
       <div className="surroundBox">
-        <div className="infobox boldCenter">
+        <div className="infobox centerPadding">
           <p>RSVP</p>
           <p><i>Vastaathan 1.8.2025 mennessä yllä olevan RSVP-linkin kautta</i></p>
         </div>

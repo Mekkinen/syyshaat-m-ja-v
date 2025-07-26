@@ -11,16 +11,20 @@ html {
 
 .infobox {
   background-color: #CCA1A6;
-  padding: 10 10;
-  margin: 10 10;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  flex-basis: calc(50% - 20px); /* 50% width minus margins */
   flex-grow: 1;
   text-align: center;
+  min-width: 300px; /* Minimum width before wrapping */
+  box-sizing: border-box;
 }
 
 .surroundBox {
   margin: 0em 0em 6em 0em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .boldCenter {
@@ -65,6 +69,7 @@ html {
   text-align: center;
   flex-grow: 1;
   order: 1;
+  padding: 20px 0px;
 }
 
 .header-nimet {
@@ -83,7 +88,7 @@ html {
 .header-date,
 .header-event {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 2vh;
 }
 
 @media (max-width: 1600px) {
@@ -97,7 +102,7 @@ html {
     flex-direction: row; /* Keep horizontal layout */
     flex-wrap: nowrap; /* Prevent wrapping */
     max-width: 75%;
-    margin-top: 2em;
+    margin-top: 2vh;
   }
 
   .header-images-row {
@@ -119,7 +124,7 @@ html {
 
   .header-date,
   .header-event {
-    font-size: 1.2em; /* Adjust text size for smaller screens */
+    font-size: 2vh; /* Adjust text size for smaller screens */
   }
 }
 
@@ -128,7 +133,7 @@ html {
     flex-direction: row; /* Keep horizontal layout */
     flex-wrap: nowrap; /* Prevent wrapping */
     max-width: 100%;
-    margin-top: 2em;
+    margin-top: 2vh;
   }
 
   .header-image {
@@ -153,9 +158,9 @@ html {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     max-width: 100%;
-    margin-top: 7em;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
+    margin-top: 25vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
   }
 
   .header-center {
@@ -165,8 +170,8 @@ html {
   .header-nimet {
     max-width: 100%;
     min-width: 95%;
-    margin-left: 0.7em;
-    margin-right: 0.7em;
+    margin-left: 0.7vh;
+    margin-right: 0.7vh;
   }
 
   .header-images-row {
@@ -174,7 +179,7 @@ html {
     justify-content: space-between; /* Space out images */
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 5em;
+    /* margin-top: 5em; */
   }
 
   .left-image {
