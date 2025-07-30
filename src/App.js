@@ -6,12 +6,12 @@ export function App() {
       <Header />
       <div className="surroundBox">
         <div className="infobox centerPadding">
-          <p>RSVP</p>
-          <p><i>Vastaathan 1.8.2025 mennessä yllä olevan RSVP-linkin kautta</i></p>
+          <p><a href="">RSVP</a></p>
+          <p><i>Vastaathan 10.8.2025 mennessä yllä olevan RSVP-linkin kautta</i></p>
         </div>
         <div className="infobox centerPadding">
           <div className="inlineLeft">
-            <p>Aikataulu</p>
+            <div style={{textAlign: "center"}}><p>Aikataulu</p></div>
             <ul>
               <li>14:45 - Paikalle voi saapua, alkumaljat</li>
               <li>15:30 - Vihkiminen</li>

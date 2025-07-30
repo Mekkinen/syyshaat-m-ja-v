@@ -1,5 +1,6 @@
 html {
   color-scheme: light dark;
+  color: #64484b;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   align-items: center;
@@ -7,6 +8,27 @@ html {
   height: 100%;
   background-color: #c49399;
   font-size: larger;
+}
+
+a {
+  font-size: 1.8em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for hover effects */
+}
+
+a:hover {
+  color: #70315b; /* Change color on hover (e.g., to a blue shade) */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+a:visited {
+  color: #555; /* Slightly darker color for visited links */
+}
+
+a:active {
+  color: #70315b; /* Darker blue for active links */
 }
 
 .infobox {
@@ -25,6 +47,8 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .boldCenter {
@@ -33,7 +57,7 @@ html {
 }
 
 .centerPadding {
-  padding-top: 4em;
+  padding: 2.5vh;
 }
 
 .inlineLeft {
@@ -66,6 +90,7 @@ html {
 }
 
 .header-center {
+  color: #292929;
   text-align: center;
   flex-grow: 1;
   order: 1;
@@ -75,14 +100,17 @@ html {
 .header-nimet {
   width: 55%; /* Center image scales proportionally */
   height: auto; /* Maintain aspect ratio */
+  margin-top: 10vh;
 }
 
 .left-image {
   order: 0;
+  margin-top: 8vh;
 }
 
 .right-image {
   order: 2;
+  margin-top: 8vh;
 }
 
 .header-date,
@@ -126,6 +154,11 @@ html {
   .header-event {
     font-size: 2vh; /* Adjust text size for smaller screens */
   }
+
+  .surroundBox {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -147,9 +180,27 @@ html {
     height: auto; /* Maintain aspect ratio */
   }
 
+  .header-images-row {
+    margin-top: 20vh;
+  }
+
   .header-date,
   .header-event {
     font-size: 1.2em; /* Adjust text size for smaller screens */
+  }
+
+  .surroundBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 50vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+
+  .infobox {
+    width: 90%;
   }
 }
 
@@ -179,17 +230,19 @@ html {
     justify-content: space-between; /* Space out images */
     flex-wrap: wrap;
     width: 100%;
-    /* margin-top: 5em; */
+    margin-top: 25vh;
   }
 
   .left-image {
     order: 1; /* Left image comes first in the row */
     margin-left: 10%;
+    margin-top: 0vh;
   }
 
   .right-image {
     order: 2;
     margin-right: 10%;
+    margin-top: 0vh;
   }
 
   .left-image,

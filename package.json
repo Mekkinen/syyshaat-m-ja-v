@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build src/index.html --public-url /syyshaat-m-ja-v/",
     "deploy": "gh-pages -d dist"
   },
   "staticFiles": {
