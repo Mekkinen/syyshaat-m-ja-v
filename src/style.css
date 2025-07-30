@@ -11,7 +11,7 @@ html {
 }
 
 a {
-  font-size: 1.8em;
+  font-size: 1.2em;
   text-decoration: none;
   font-weight: bold;
   color: #333;
@@ -205,6 +205,14 @@ a:active {
 }
 
 @media (max-width: 550px) {
+  a {
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for hover effects */
+  }
+
   .header {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
@@ -215,7 +223,7 @@ a:active {
   }
 
   .header-center {
-    order: 0; /* Middle image comes first */
+    order: 2;
   }
 
   .header-nimet {
@@ -223,6 +231,8 @@ a:active {
     min-width: 95%;
     margin-left: 0.7vh;
     margin-right: 0.7vh;
+    order: 2;
+    margin-top: 0vh;
   }
 
   .header-images-row {
@@ -230,19 +240,19 @@ a:active {
     justify-content: space-between; /* Space out images */
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 25vh;
+    margin-top: 0vh;
   }
 
   .left-image {
-    order: 1; /* Left image comes first in the row */
+    order: 0; /* Left image comes first in the row */
     margin-left: 10%;
-    margin-top: 0vh;
+    margin-top: 25vh;
   }
 
   .right-image {
-    order: 2;
+    order: 1;
     margin-right: 10%;
-    margin-top: 0vh;
+    margin-top: 25vh;
   }
 
   .left-image,
