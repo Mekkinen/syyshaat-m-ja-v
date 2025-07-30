@@ -12,7 +12,7 @@ html {
 
 a {
   color: #333;
-  font-size: 1.8em;
+  font-size: 1.2em;
   font-weight: bold;
   text-decoration: none;
   transition: color .3s, text-decoration .3s;
@@ -198,6 +198,14 @@ a:active {
 }
 
 @media (width <= 550px) {
+  a {
+    color: #333;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color .3s, text-decoration .3s;
+  }
+
   .header {
     flex-direction: column;
     align-items: center;
@@ -208,12 +216,14 @@ a:active {
   }
 
   .header-center {
-    order: 0;
+    order: 2;
   }
 
   .header-nimet {
+    order: 2;
     min-width: 95%;
     max-width: 100%;
+    margin-top: 0;
     margin-left: .7vh;
     margin-right: .7vh;
   }
@@ -222,19 +232,19 @@ a:active {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 25vh;
+    margin-top: 0;
     display: flex;
   }
 
   .left-image {
-    order: 1;
-    margin-top: 0;
+    order: 0;
+    margin-top: 25vh;
     margin-left: 10%;
   }
 
   .right-image {
-    order: 2;
-    margin-top: 0;
+    order: 1;
+    margin-top: 25vh;
     margin-right: 10%;
   }
 

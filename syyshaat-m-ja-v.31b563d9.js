@@ -16116,15 +16116,8 @@ function App() {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "infobox centerPadding",
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: "",
-                                    children: "RSVP"
-                                }, void 0, false, {
-                                    fileName: "src/App.js",
-                                    lineNumber: 9,
-                                    columnNumber: 14
-                                }, this)
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "RSVP"
                             }, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 9,
@@ -16132,7 +16125,7 @@ function App() {
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                    children: "Vastaathan 10.8.2025 menness\xe4 yll\xe4 olevan RSVP-linkin kautta"
+                                    children: "Ilmoitathan tulostasi 10.8.2025 menness\xe4 alla olevan RSVP-linkin kautta"
                                 }, void 0, false, {
                                     fileName: "src/App.js",
                                     lineNumber: 10,
@@ -16141,6 +16134,27 @@ function App() {
                             }, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 10,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Samassa lomakkeessa ilmoitathan allergiat ja muut ruokavaliorajoitteet. Ruoka on kokonaan vegaanista, joten kasvisruokavaliota ei tarvitse erikseen ilmoittaa. Tervetuloa!"
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 11,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "",
+                                    children: "RSVP - vastaa t\xe4st\xe4"
+                                }, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 12,
+                                    columnNumber: 14
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 12,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -16158,16 +16172,16 @@ function App() {
                                     style: {
                                         textAlign: "center"
                                     },
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                         children: "Aikataulu"
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 14,
+                                        lineNumber: 16,
                                         columnNumber: 48
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/App.js",
-                                    lineNumber: 14,
+                                    lineNumber: 16,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -16176,87 +16190,130 @@ function App() {
                                             children: "14:45 - Paikalle voi saapua, alkumaljat"
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 16,
+                                            lineNumber: 18,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                             children: "15:30 - Vihkiminen"
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 17,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: "16:15 - P\xe4iv\xe4llinen"
-                                        }, void 0, false, {
-                                            fileName: "src/App.js",
-                                            lineNumber: 18,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: "18:00 - Jotain"
-                                        }, void 0, false, {
-                                            fileName: "src/App.js",
                                             lineNumber: 19,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: "19:00 - Kakun leikkaus"
+                                            children: "16:15 - P\xe4iv\xe4llinen alkaa"
                                         }, void 0, false, {
                                             fileName: "src/App.js",
                                             lineNumber: 20,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: "20:00 - DJ soittelee, vapaata hengailua"
+                                            children: "17:10 - Kuvia h\xe4\xe4parin kanssa"
                                         }, void 0, false, {
                                             fileName: "src/App.js",
                                             lineNumber: 21,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: "19:00 - Kakun leikkaus"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 22,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: "20:00 - DJ soittaa, vapaata hengailua"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 23,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: "21:55 - Loppuseremonia"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 24,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/App.js",
-                                    lineNumber: 15,
+                                    lineNumber: 17,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/App.js",
-                            lineNumber: 13,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 12,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "infobox centerPadding",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "Pukukoodi"
-                        }, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 26,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 25,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "infobox centerPadding",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "H\xe4\xe4lahjat"
-                        }, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 29,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "Pukukoodi"
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 29,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Pukukoodina on juhlapukeutuminen, mutta \xe4l\xe4 turhaan ota stressi\xe4 siit\xe4, oletko tarpeeksi juhlava tai ylipukeutunut."
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 30,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/App.js",
                         lineNumber: 28,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "infobox centerPadding",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "H\xe4\xe4lahjat"
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 33,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    "Mik\xe4li haluat lahjoa meit\xe4 ja taloudellinen tilanteesi sen sallii, toivomme lahjoitusta h\xe4\xe4matkakassaan! Tilinumeromme on ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                        children: "FI18 3636 3010 4953 98"
+                                    }, void 0, false, {
+                                        fileName: "src/App.js",
+                                        lineNumber: 34,
+                                        columnNumber: 136
+                                    }, this),
+                                    ", saaja ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                        children: "Mea Ekroos"
+                                    }, void 0, false, {
+                                        fileName: "src/App.js",
+                                        lineNumber: 34,
+                                        columnNumber: 173
+                                    }, this),
+                                    "."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/App.js",
+                                lineNumber: 34,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/App.js",
+                        lineNumber: 32,
                         columnNumber: 9
                     }, this)
                 ]
@@ -18652,7 +18709,7 @@ function Header() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         className: "header-date",
-                        children: "11.10.2025"
+                        children: "h\xe4\xe4juhla ~ 11.10.2025"
                     }, void 0, false, {
                         fileName: "src/Header.js",
                         lineNumber: 17,
@@ -18661,7 +18718,7 @@ function Header() {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         className: "header-event",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                            children: "h\xe4\xe4juhla"
+                            children: "Ravintola Bruket - Kaikukatu 3, Helsinki"
                         }, void 0, false, {
                             fileName: "src/Header.js",
                             lineNumber: 18,
