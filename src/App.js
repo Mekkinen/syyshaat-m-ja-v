@@ -7,7 +7,7 @@ export function App() {
       <div className="surroundBox">
         <div className="infobox centerPadding">
           <h2 className="mid-header">RSVP</h2>
-          <p><i>Ilmoitathan tulostasi 15.8.2025 mennessä alla olevan RSVP-linkin kautta.</i></p>
+          <p><i>Ilmoitathan tulostasi <b>15.8.2025</b> mennessä alla olevan RSVP-linkin kautta.</i></p>
           <p>Samassa lomakkeessa ilmoitathan allergiat ja muut ruokavaliorajoitteet. Ruoka on kokonaan vegaanista, joten kasvisruokavaliota ei tarvitse erikseen ilmoittaa. Tervetuloa!</p>
           <div className="button-container">
             <a href="" className="styled-button">RSVP - vastaa tästä</a>
@@ -60,7 +60,7 @@ export function App() {
           
           <div className="copy-field-container">
             <div className="copy-field">
-              <span>Tilinumero:</span>
+              <span>Tilinumero</span>
               <input 
                 type="text" 
                 value="FI18 3636 3010 4953 98" 
@@ -85,7 +85,7 @@ export function App() {
               </button>
             </div>
             <div className="copy-field">
-              <span>Saaja:</span>
+              <span>Saaja</span>
               <input 
                 type="text" 
                 value="Mea Ekroos" 

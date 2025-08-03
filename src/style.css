@@ -217,7 +217,7 @@ a:active {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
   a {
     font-size: 1.2em;
     text-decoration: none;
@@ -304,7 +304,7 @@ a:active {
 }
 
 .schedule-table td {
-  padding: 4px 2em;
+  padding: 0px 2em;
   border: none;
   text-align: left;
 }
@@ -383,6 +383,37 @@ a:active {
   background-color: #592849;
 }
 
+/* Location information styles */
+.location-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.location-name {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #6f3b53;
+  font-size: 1em;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.map-link:hover {
+  color: #8d3e5b;
+}
+
+.map-icon {
+  margin-left: 4px;
+}
+
 /* Styled button that matches copy buttons */
 .button-container {
   display: flex;
@@ -413,7 +444,7 @@ a:active {
   background-color: #592849;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
   .copy-field {
     flex-direction: column;
     gap: 10px;
@@ -426,12 +457,12 @@ a:active {
   }
   
   .copy-field input {
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    max-width: 80%;
   }
   
   .copy-field button {
-    width: 100%;
+    width: 85%;
     padding: 12px 15px;
   }
   
