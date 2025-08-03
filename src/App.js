@@ -43,7 +43,7 @@ export function App() {
                   <td className="event-column">DJ soittaa, vapaata hengailua</td>
                 </tr>
                 <tr>
-                  <td className="time-column">21:55</td>
+                  <td className="time-column">21:25</td>
                   <td className="event-column">Loppuseremonia</td>
                 </tr>
               </tbody>
