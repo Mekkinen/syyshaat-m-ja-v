@@ -217,7 +217,7 @@ a:active {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     max-width: 100%;
-    margin-top: 25vh;
+    margin-top: 620px;
     padding-left: 0.5vh;
     padding-right: 0.5vh;
   }
@@ -240,7 +240,7 @@ a:active {
     justify-content: space-between; /* Space out images */
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 0vh;
+    margin-top: 25vh;
   }
 
   .left-image {
