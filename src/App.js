@@ -7,10 +7,10 @@ export function App() {
       <div className="surroundBox">
         <div className="infobox centerPadding">
           <h2 className="mid-header">RSVP</h2>
-          <p><i>Ilmoitathan tulostasi <b>15.8.2025</b> mennessä alla olevan RSVP-linkin kautta.</i></p>
-          <p>Samassa lomakkeessa ilmoitathan allergiat ja muut ruokavaliorajoitteet. Ruoka on kokonaan vegaanista, joten kasvisruokavaliota ei tarvitse erikseen ilmoittaa. Tervetuloa!</p>
+          <p><i>Ilmoitathan tulostasi ja avecistasi <b>15.8.2025</b> mennessä alla olevan RSVP-linkin kautta.</i></p>
+          <p>Lapset ovat myös tervetulleita! Samassa lomakkeessa ilmoitathan allergiat ja muut ruokavaliorajoitteet. Ruoka on kokonaan vegaanista, joten kasvisruokavaliota ei tarvitse erikseen ilmoittaa. Tervetuloa!</p>
           <div className="button-container">
-            <a href="" className="styled-button">RSVP - vastaa tästä</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx87T5RfoRb0i_4ChPofpWA17jNnU98dcAgU5m0dmLsf-Mnw/viewform?usp=header" className="styled-button">RSVP - vastaa tästä</a>
           </div>
         </div>
         <div className="infobox centerPadding">
@@ -20,7 +20,7 @@ export function App() {
               <tbody>
                 <tr>
                   <td className="time-column">14:30</td>
-                  <td className="event-column">Paikalle voi saapua, alkumaljat</td>
+                  <td className="event-column">Paikalle saapuminen, alkumaljat</td>
                 </tr>
                 <tr>
                   <td className="time-column">15:00</td>
