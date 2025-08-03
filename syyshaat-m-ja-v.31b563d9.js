@@ -16441,7 +16441,7 @@ function App() {
                                         className: "copy-field",
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "Tilinumero:"
+                                                children: "Tilinumero"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
                                                 lineNumber: 63,
@@ -16486,7 +16486,7 @@ function App() {
                                         className: "copy-field",
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "Saaja:"
+                                                children: "Saaja"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
                                                 lineNumber: 88,
