@@ -2,12 +2,19 @@ html {
   color-scheme: light dark;
   color: #64484b;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
   background-color: #c49399;
   font-size: larger;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -43,12 +50,14 @@ a:active {
 }
 
 .surroundBox {
-  margin: 0em 0em 6em 0em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 6em;
+  margin-top: 0em;
+  position: relative; /* Added positioning context */
 }
 
 .boldCenter {
@@ -75,6 +84,8 @@ a:active {
   max-width: 55%;
   margin-left: auto;
   margin-right: auto;
+  position: relative; /* Added positioning */
+  z-index: 10; /* Ensure header stays above other content */
 }
 
 .header-images-row {
@@ -115,7 +126,7 @@ a:active {
 
 .header-date,
 .header-event {
-  margin: 0;
+  margin-top: 0.5em;
   font-size: 2vh;
 }
 
@@ -158,6 +169,7 @@ a:active {
   .surroundBox {
     margin-left: 2.5%;
     margin-right: 2.5%;
+    margin-top: 0%;
   }
 }
 
@@ -166,7 +178,7 @@ a:active {
     flex-direction: row; /* Keep horizontal layout */
     flex-wrap: nowrap; /* Prevent wrapping */
     max-width: 100%;
-    margin-top: 2vh;
+    margin-top: 1vh;
   }
 
   .header-image {
@@ -181,7 +193,7 @@ a:active {
   }
 
   .header-images-row {
-    margin-top: 20vh;
+    margin-top: 0vh;
   }
 
   .header-date,
@@ -195,6 +207,7 @@ a:active {
     align-items: center;
     justify-content: flex-start;
     min-height: 50vh;
+    margin-top: 0em;
     margin-left: 0.5%;
     margin-right: 0.5%;
   }
@@ -206,7 +219,7 @@ a:active {
 
 @media (max-width: 550px) {
   a {
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-decoration: none;
     font-weight: bold;
     color: #333;
@@ -217,7 +230,7 @@ a:active {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     max-width: 100%;
-    margin-top: 620px;
+    margin-top: 20px; /* Fixed value instead of extreme value */
     padding-left: 0.5vh;
     padding-right: 0.5vh;
   }
@@ -240,19 +253,19 @@ a:active {
     justify-content: space-between; /* Space out images */
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 25vh;
+    margin-top: 20px;
   }
 
   .left-image {
     order: 0; /* Left image comes first in the row */
     margin-left: 10%;
-    margin-top: 25vh;
+    margin-top: 20px;
   }
 
   .right-image {
     order: 1;
     margin-right: 10%;
-    margin-top: 25vh;
+    margin-top: 20px;
   }
 
   .left-image,
@@ -260,4 +273,35 @@ a:active {
     width: 40%; /* Adjust image size for smaller screens */
     height: auto; /* Maintain aspect ratio */
   }
+}
+
+/* Schedule Table Styles */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.schedule-table td {
+  padding: 8px 1.5em;
+  border: none;
+  text-align: left;
+}
+
+.time-column {
+  width: 15%;
+  font-weight: bold;
+  padding-right: 15px;
+  border-right: 2px solid #70315b;
+  color: #70315b;
+}
+
+.event-column {
+  padding-left: 15px;
+  width: 85%;
+}
+
+/* Make table rows have some spacing for better readability */
+.schedule-table tr:not(:last-child) td {
+  padding-bottom: 12px;
 }

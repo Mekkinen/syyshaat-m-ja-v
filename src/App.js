@@ -7,22 +7,45 @@ export function App() {
       <div className="surroundBox">
         <div className="infobox centerPadding">
           <h2>RSVP</h2>
-          <p><i>Ilmoitathan tulostasi 10.8.2025 mennessä alla olevan RSVP-linkin kautta</i></p>
+          <p><i>Ilmoitathan tulostasi 15.8.2025 mennessä alla olevan RSVP-linkin kautta.</i></p>
           <p>Samassa lomakkeessa ilmoitathan allergiat ja muut ruokavaliorajoitteet. Ruoka on kokonaan vegaanista, joten kasvisruokavaliota ei tarvitse erikseen ilmoittaa. Tervetuloa!</p>
           <p><a href="">RSVP - vastaa tästä</a></p>
         </div>
         <div className="infobox centerPadding">
           <div className="inlineLeft">
-            <div style={{textAlign: "center"}}><h2>Aikataulu</h2></div>
-            <ul>
-              <li>14:45 - Paikalle voi saapua, alkumaljat</li>
-              <li>15:30 - Vihkiminen</li>
-              <li>16:15 - Päivällinen alkaa</li>
-              <li>17:10 - Kuvia hääparin kanssa</li>
-              <li>19:00 - Kakun leikkaus</li>
-              <li>20:00 - DJ soittaa, vapaata hengailua</li>
-              <li>21:55 - Loppuseremonia</li>
-            </ul>
+            <div style={{textAlign: "center"}}><h2>Alustava aikataulu</h2></div>
+            <table className="schedule-table">
+              <tbody>
+                <tr>
+                  <td className="time-column">14:30</td>
+                  <td className="event-column">Paikalle voi saapua, alkumaljat</td>
+                </tr>
+                <tr>
+                  <td className="time-column">15:00</td>
+                  <td className="event-column">Vihkiminen</td>
+                </tr>
+                <tr>
+                  <td className="time-column">16:15</td>
+                  <td className="event-column">Päivällinen alkaa</td>
+                </tr>
+                <tr>
+                  <td className="time-column">17:15</td>
+                  <td className="event-column">Kuvia hääparin kanssa</td>
+                </tr>
+                <tr>
+                  <td className="time-column">18:30</td>
+                  <td className="event-column">Kakun leikkaus</td>
+                </tr>
+                <tr>
+                  <td className="time-column">19:30</td>
+                  <td className="event-column">DJ soittaa, vapaata hengailua</td>
+                </tr>
+                <tr>
+                  <td className="time-column">21:55</td>
+                  <td className="event-column">Loppuseremonia</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
         <div className="infobox centerPadding">

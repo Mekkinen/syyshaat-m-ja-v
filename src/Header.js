@@ -14,8 +14,8 @@ export function Header() {
         </div>
       </header>
       <div className="header-center">
-        <h2 className="header-date">hääjuhla ~ 11.10.2025</h2>
-        <h2 className="header-event"><i>Ravintola Bruket - Kaikukatu 3, Helsinki</i></h2>
+        <h2 className="header-date">hääjuhla ~ la 11.10.2025</h2>
+        <h2 className="header-event"><i>Ravintola Bruket ~ Kaikukatu 3, Helsinki</i></h2>
       </div>
     </>
   );
