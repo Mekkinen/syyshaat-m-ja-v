@@ -16126,8 +16126,18 @@ function App() {
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                    children: "Ilmoitathan tulostasi 15.8.2025 menness\xe4 alla olevan RSVP-linkin kautta."
-                                }, void 0, false, {
+                                    children: [
+                                        "Ilmoitathan tulostasi ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                            children: "15.8.2025"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 10,
+                                            columnNumber: 39
+                                        }, this),
+                                        " menness\xe4 alla olevan RSVP-linkin kautta."
+                                    ]
+                                }, void 0, true, {
                                     fileName: "src/App.js",
                                     lineNumber: 10,
                                     columnNumber: 14
