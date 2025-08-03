@@ -40,8 +40,8 @@ a:active {
 
 .infobox {
   background-color: #CCA1A6;
-  padding: 10px 10px;
-  margin: 10px 10px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
   flex-basis: calc(50% - 20px); /* 50% width minus margins */
   flex-grow: 1;
   text-align: center;
@@ -66,12 +66,12 @@ a:active {
 }
 
 .centerPadding {
-  padding: 2.5vh;
+  padding: 2.5vh 2.5vh 3.75vh 2.5vh;
 }
 
 .inlineLeft {
   display: inline-block;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .header {
@@ -230,7 +230,6 @@ a:active {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     max-width: 100%;
-    margin-top: 20px; /* Fixed value instead of extreme value */
     padding-left: 0.5vh;
     padding-right: 0.5vh;
   }
@@ -245,45 +244,67 @@ a:active {
     margin-left: 0.7vh;
     margin-right: 0.7vh;
     order: 2;
-    margin-top: 0vh;
+    margin-top: -40px;
   }
 
   .header-images-row {
     display: flex; /* Create a row for left and right images */
-    justify-content: space-between; /* Space out images */
+    justify-content: center; /* Center images horizontally */
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .left-image {
     order: 0; /* Left image comes first in the row */
-    margin-left: 10%;
     margin-top: 20px;
+    transform: rotate(-17deg); /* Rotate counter-clockwise by 30 degrees */
   }
 
   .right-image {
     order: 1;
-    margin-right: 10%;
     margin-top: 20px;
+    transform: rotate(37deg); /* Rotate clockwise by 30 degrees */
   }
 
   .left-image,
   .right-image {
-    width: 40%; /* Adjust image size for smaller screens */
+    width: 40%; /* Wider to ensure overlap */
     height: auto; /* Maintain aspect ratio */
+    position: relative; /* Enable positioning for overlap */
   }
+  
+  .header-images-row {
+    justify-content: center; /* Center the images horizontally */
+    gap: 0; /* Remove gap between images */
+    position: relative; /* For positioning context */
+  }
+  
+  .left-image {
+    right: -9%; /* Move right to create overlap */
+    z-index: 2; /* Stack above */
+  }
+  
+  .right-image {
+    left: -11%; /* Move left to create overlap */
+    z-index: 1; /* Stack on top */
+    width: 44%;
+  }
+}
+
+.mid-header {
+  margin-bottom: 1.5em;
 }
 
 /* Schedule Table Styles */
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 0 auto;
+  margin: 1% auto;
 }
 
 .schedule-table td {
-  padding: 8px 1.5em;
+  padding: 4px 2em;
   border: none;
   text-align: left;
 }
@@ -304,4 +325,120 @@ a:active {
 /* Make table rows have some spacing for better readability */
 .schedule-table tr:not(:last-child) td {
   padding-bottom: 12px;
+}
+
+/* Copy-pasteable field styles */
+.copy-field-container {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.copy-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.copy-field span {
+  flex: 0 0 80px;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.copy-field input {
+  color: rgb(116, 82, 92);
+  flex: 1;
+  min-width: 200px;
+  max-width: 350px;
+  padding: 8px 12px;
+  border: 2px solid #9e7590;
+  border-radius: 4px;
+  background-color: rgba(239, 203, 213, 0.7);
+  font-family: inherit;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.copy-field button {
+  padding: 8px 15px;
+  background-color: #6f3b53;
+  color: rgb(235, 225, 225);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.copy-field button:hover {
+  background-color: #8d3e5b;
+}
+
+.copy-field button:active {
+  background-color: #592849;
+}
+
+/* Styled button that matches copy buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.styled-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #6f3b53;
+  color: rgb(235, 225, 225) !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none !important;
+  transition: background-color 0.2s;
+  font-size: 1.1em;
+}
+
+.styled-button:hover {
+  background-color: #8d3e5b;
+  text-decoration: none !important;
+}
+
+.styled-button:active {
+  background-color: #592849;
+}
+
+@media (max-width: 550px) {
+  .copy-field {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .copy-field span {
+    flex: 0 0 auto;
+    text-align: center;
+    margin-right: 0;
+  }
+  
+  .copy-field input {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .copy-field button {
+    width: 100%;
+    padding: 12px 15px;
+  }
+  
+  .styled-button {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+  }
 }

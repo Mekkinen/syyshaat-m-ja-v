@@ -6,14 +6,16 @@ export function App() {
       <Header />
       <div className="surroundBox">
         <div className="infobox centerPadding">
-          <h2>RSVP</h2>
+          <h2 className="mid-header">RSVP</h2>
           <p><i>Ilmoitathan tulostasi 15.8.2025 mennessä alla olevan RSVP-linkin kautta.</i></p>
           <p>Samassa lomakkeessa ilmoitathan allergiat ja muut ruokavaliorajoitteet. Ruoka on kokonaan vegaanista, joten kasvisruokavaliota ei tarvitse erikseen ilmoittaa. Tervetuloa!</p>
-          <p><a href="">RSVP - vastaa tästä</a></p>
+          <div className="button-container">
+            <a href="" className="styled-button">RSVP - vastaa tästä</a>
+          </div>
         </div>
         <div className="infobox centerPadding">
           <div className="inlineLeft">
-            <div style={{textAlign: "center"}}><h2>Alustava aikataulu</h2></div>
+            <div className="mid-header" style={{textAlign: "center"}}><h2>Alustava aikataulu</h2></div>
             <table className="schedule-table">
               <tbody>
                 <tr>
@@ -49,12 +51,65 @@ export function App() {
           </div>
         </div>
         <div className="infobox centerPadding">
-          <h2>Pukukoodi</h2>
+          <h2 className="mid-header">Pukukoodi</h2>
           <p>Pukukoodina on juhlapukeutuminen, mutta älä turhaan ota stressiä siitä, oletko tarpeeksi juhlava tai ylipukeutunut.</p>
         </div>
         <div className="infobox centerPadding">
-          <h2>Häälahjat</h2>
-          <p>Mikäli haluat lahjoa meitä ja taloudellinen tilanteesi sen sallii, toivomme lahjoitusta häämatkakassaan! Tilinumeromme on <i>FI18 3636 3010 4953 98</i>, saaja <i>Mea Ekroos</i>.</p>
+          <h2 className="mid-header">Häälahjat</h2>
+          <p>Mikäli haluat lahjoa meitä ja taloudellinen tilanteesi sen sallii, toivomme lahjoitusta häämatkakassaan!</p>
+          
+          <div className="copy-field-container">
+            <div className="copy-field">
+              <span>Tilinumero:</span>
+              <input 
+                type="text" 
+                value="FI18 3636 3010 4953 98" 
+                id="accountNumber" 
+                readOnly
+                onClick={(e) => e.target.select()}
+              />
+              <button 
+                onClick={() => {
+                  const accountNumber = document.getElementById('accountNumber');
+                  accountNumber.select();
+                  document.execCommand('copy');
+                  const button = document.getElementById('copyButton');
+                  button.textContent = 'Kopioitu!';
+                  setTimeout(() => {
+                    button.textContent = 'Kopioi';
+                  }, 2000);
+                }}
+                id="copyButton"
+              >
+                Kopioi
+              </button>
+            </div>
+            <div className="copy-field">
+              <span>Saaja:</span>
+              <input 
+                type="text" 
+                value="Mea Ekroos" 
+                id="recipientName" 
+                readOnly
+                onClick={(e) => e.target.select()}
+              />
+              <button 
+                onClick={() => {
+                  const recipientName = document.getElementById('recipientName');
+                  recipientName.select();
+                  document.execCommand('copy');
+                  const button = document.getElementById('copyNameButton');
+                  button.textContent = 'Kopioitu!';
+                  setTimeout(() => {
+                    button.textContent = 'Kopioi';
+                  }, 2000);
+                }}
+                id="copyNameButton"
+              >
+                Kopioi
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>
