@@ -5,8 +5,9 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build src/index.html --public-url /syyshaat-m-ja-v/",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build src/index.html",
+    "deploy": "cp CNAME dist/CNAME && gh-pages -d dist",
+    "clear": "rm -rf .parcel-cache dist"
   },
   "staticFiles": {
     "staticPath": "public",
