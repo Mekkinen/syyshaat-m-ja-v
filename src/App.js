@@ -7,7 +7,7 @@ export function App() {
       <div className="surroundBox">
         <div className="infobox centerPadding">
           <h2 className="mid-header">RSVP</h2>
-          <p><i>Ilmoitathan tulostasi ja avecistasi <b>15.8.2025</b> mennessä alla olevan RSVP-linkin kautta.</i></p>
+          <p><i>Ilmoitathan tulostasi ja avecistasi alla olevan RSVP-linkin kautta.</i></p>
           <p>Lapset ovat myös tervetulleita! Samassa lomakkeessa ilmoitathan allergiat ja muut ruokavaliorajoitteet. Ruoka on kokonaan vegaanista, joten kasvisruokavaliota ei tarvitse erikseen ilmoittaa. Tervetuloa!</p>
           <div className="button-container">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx87T5RfoRb0i_4ChPofpWA17jNnU98dcAgU5m0dmLsf-Mnw/viewform?usp=header" className="styled-button">RSVP - vastaa tästä</a>
