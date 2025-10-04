@@ -16115,59 +16115,6 @@ function App() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "infobox centerPadding",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                className: "mid-header",
-                                children: "RSVP"
-                            }, void 0, false, {
-                                fileName: "src/App.js",
-                                lineNumber: 9,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                    children: "Ilmoitathan tulostasi ja avecistasi alla olevan RSVP-linkin kautta."
-                                }, void 0, false, {
-                                    fileName: "src/App.js",
-                                    lineNumber: 10,
-                                    columnNumber: 14
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/App.js",
-                                lineNumber: 10,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Lapset ovat my\xf6s tervetulleita! Samassa lomakkeessa ilmoitathan allergiat ja muut ruokavaliorajoitteet. Ruoka on kokonaan vegaanista, joten kasvisruokavaliota ei tarvitse erikseen ilmoittaa. Tervetuloa!"
-                            }, void 0, false, {
-                                fileName: "src/App.js",
-                                lineNumber: 11,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "button-container",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: "https://docs.google.com/forms/d/e/1FAIpQLSfx87T5RfoRb0i_4ChPofpWA17jNnU98dcAgU5m0dmLsf-Mnw/viewform?usp=header",
-                                    className: "styled-button",
-                                    children: "RSVP - vastaa t\xe4st\xe4"
-                                }, void 0, false, {
-                                    fileName: "src/App.js",
-                                    lineNumber: 13,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/App.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/App.js",
-                        lineNumber: 8,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "infobox centerPadding",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "inlineLeft",
                             children: [
@@ -16177,7 +16124,7 @@ function App() {
                                         textAlign: "center"
                                     },
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        children: "Alustava aikataulu"
+                                        children: "Aikataulu"
                                     }, void 0, false, {
                                         fileName: "src/App.js",
                                         lineNumber: 18,
@@ -16244,7 +16191,7 @@ function App() {
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "time-column",
-                                                        children: "16:15"
+                                                        children: "~16:00"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 30,
@@ -16252,7 +16199,7 @@ function App() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "event-column",
-                                                        children: "P\xe4iv\xe4llinen alkaa"
+                                                        children: "P\xe4iv\xe4llinen alkaa, DJ:iden soittelua, puheita ym."
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 31,
@@ -16268,7 +16215,7 @@ function App() {
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "time-column",
-                                                        children: "17:15"
+                                                        children: "~17:00"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 34,
@@ -16276,7 +16223,7 @@ function App() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "event-column",
-                                                        children: "Kuvia h\xe4\xe4parin kanssa"
+                                                        children: "Kuvia h\xe4\xe4parin kanssa ruokalajien v\xe4liss\xe4"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 35,
@@ -16292,7 +16239,7 @@ function App() {
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "time-column",
-                                                        children: "18:30"
+                                                        children: "~18:30"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 38,
@@ -16300,7 +16247,7 @@ function App() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "event-column",
-                                                        children: "Kakun leikkaus"
+                                                        children: "Kakun leikkaus, kakkukahvit"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 39,
@@ -16316,7 +16263,7 @@ function App() {
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "time-column",
-                                                        children: "19:30"
+                                                        children: "~19:30"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 42,
@@ -16324,7 +16271,7 @@ function App() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "event-column",
-                                                        children: "DJ soittaa, vapaata hengailua"
+                                                        children: "DJ soittaa, vapaata hengailua ja baari auki"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 43,
@@ -16348,7 +16295,7 @@ function App() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                                         className: "event-column",
-                                                        children: "Loppuseremonia"
+                                                        children: "Loppuseremonia, h\xe4\xe4pari poistuu"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
                                                         lineNumber: 47,
@@ -16358,6 +16305,30 @@ function App() {
                                             }, void 0, true, {
                                                 fileName: "src/App.js",
                                                 lineNumber: 45,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "time-column",
+                                                        children: "21:40-00:00"
+                                                    }, void 0, false, {
+                                                        fileName: "src/App.js",
+                                                        lineNumber: 50,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "event-column",
+                                                        children: "Paikalle saa j\xe4\xe4d\xe4 juhlimaan, baari on yh\xe4 auki :-)"
+                                                    }, void 0, false, {
+                                                        fileName: "src/App.js",
+                                                        lineNumber: 51,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/App.js",
+                                                lineNumber: 49,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -16390,20 +16361,20 @@ function App() {
                                 children: "Pukukoodi"
                             }, void 0, false, {
                                 fileName: "src/App.js",
-                                lineNumber: 54,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Pukukoodina on juhlapukeutuminen, mutta \xe4l\xe4 turhaan ota stressi\xe4 siit\xe4, oletko tarpeeksi juhlava tai ylipukeutunut."
                             }, void 0, false, {
                                 fileName: "src/App.js",
-                                lineNumber: 55,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/App.js",
-                        lineNumber: 53,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -16414,14 +16385,14 @@ function App() {
                                 children: "H\xe4\xe4lahjat"
                             }, void 0, false, {
                                 fileName: "src/App.js",
-                                lineNumber: 58,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Mik\xe4li haluat lahjoa meit\xe4 ja taloudellinen tilanteesi sen sallii, toivomme lahjoitusta h\xe4\xe4matkakassaan!"
                             }, void 0, false, {
                                 fileName: "src/App.js",
-                                lineNumber: 59,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -16434,7 +16405,7 @@ function App() {
                                                 children: "Tilinumero"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 63,
+                                                lineNumber: 67,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -16445,7 +16416,7 @@ function App() {
                                                 onClick: (e)=>e.target.select()
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 64,
+                                                lineNumber: 68,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -16463,13 +16434,13 @@ function App() {
                                                 children: "Kopioi"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 71,
+                                                lineNumber: 75,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/App.js",
-                                        lineNumber: 62,
+                                        lineNumber: 66,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -16479,7 +16450,7 @@ function App() {
                                                 children: "Saaja"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 88,
+                                                lineNumber: 92,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -16490,7 +16461,7 @@ function App() {
                                                 onClick: (e)=>e.target.select()
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 89,
+                                                lineNumber: 93,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -16508,25 +16479,25 @@ function App() {
                                                 children: "Kopioi"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 96,
+                                                lineNumber: 100,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/App.js",
-                                        lineNumber: 87,
+                                        lineNumber: 91,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.js",
-                                lineNumber: 61,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/App.js",
-                        lineNumber: 57,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this)
                 ]
@@ -16737,8 +16708,11 @@ const imgList = [
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","9fb3bd42f590da83":"dBuJ5","5e9ed52839169ea5":"8ExsJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","92b4169048617253":"1sxzU"}],"dBuJ5":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","9fb3bd42f590da83":"dBuJ5","92b4169048617253":"1sxzU","5e9ed52839169ea5":"8ExsJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dBuJ5":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("pioni_withoutbg.06fff415.png") + "?" + Date.now();
+
+},{}],"1sxzU":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("vaahtera5.40b849f4.png") + "?" + Date.now();
 
 },{}],"8ExsJ":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("nimet.4e40a7f1.png") + "?" + Date.now();
@@ -19051,9 +19025,6 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"1sxzU":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("vaahtera5.40b849f4.png") + "?" + Date.now();
-
-},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire8661", {}, "./", "/", "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire8661", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=syyshaat-m-ja-v.31b563d9.js.map
